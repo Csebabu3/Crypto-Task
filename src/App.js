@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import Vibrotech from './Component/Vibrotech';
+import Header from './Component/Header';
+import Slider from './Component/Slider';
+import Services from './Component/Services';
+import ChooseVib from './Component/ChooseVib';
+import Achievment from './Component/Achievment';
+import Induestries from './Component/Induestries';
+import InterviewTask from './Component/InterviewTask';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <Vibrotech /> */}
+     {/* <Header /> */}
+     {/* <Slider /> */}
+     {/* <Services /> */}
+     {/* <ChooseVib /> */}
+     {/* <Achievment /> */}
+     {/* <Induestries /> */}
+     <InterviewTask />
     </div>
   );
 }
